@@ -12,7 +12,6 @@ const page = () => {
     setTask([...Task, { title, desc }])
     setTitle("")
     setDesc("")
-    console.log(Task)
   }
 
   function deleteItem(i) {
